@@ -8,24 +8,12 @@ public class CalculoTabuada {
     private int minimoMultiplicador;
     private int maximoMultiplicador;
 
-    public int getMultiplicando() {
-        return multiplicando;
-    }
-
     public void setMultiplicando(int multiplicando) {
         this.multiplicando = multiplicando;
     }
-
-    public int getMinimoMultiplicador() {
-        return minimoMultiplicador;
-    }
-
+    
     public void setMinimoMultiplicador(int minimoMultiplicador) {
         this.minimoMultiplicador = minimoMultiplicador;
-    }
-
-    public int getMaximoMultiplicador() {
-        return maximoMultiplicador;
     }
 
     public void setMaximoMultiplicador(int maximoMultiplicador) {
